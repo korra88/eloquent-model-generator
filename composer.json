@@ -1,16 +1,16 @@
 {
-  "name": "krlove/eloquent-model-generator",
-  "description": "Eloquent Model Generator",
-  "version": "1.2.3",
-  "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "Krlove\\EloquentModelGenerator\\": "src/"
+    "name": "korra88/eloquent-model-generator",
+    "description": "Eloquent Model Generator for Lumen",
+    "version": "1.3.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Krlove\\EloquentModelGenerator\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/lumen-framework": "5.4.*",
+        "doctrine/dbal": "^2.5",
+        "krlove/code-generator": "^1.0"
     }
-  },
-  "require": {
-    "laravel/framework": "^5.0",
-    "doctrine/dbal": "^2.5",
-    "krlove/code-generator": "^1.0"
-  }
 }
